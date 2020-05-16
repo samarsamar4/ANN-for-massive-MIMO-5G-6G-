@@ -10,7 +10,7 @@ Les nouvelles solutions de traitement du signal dopées au Machine Learning (ML)
 ![](chaine.JPG )
 
 ➢Il s'agit d'un système de liaison descendante MU-MIMO massif où la station de base est équipée de (Mt = 100) antennes de transmission et sert simultanément (Mr = 10) utilisateurs.
-➢ On suppose que le canal est parfaitement estimé, en termes de matrice de canal H de dimension (Mr × Mt).
+# 1.Canal Parfaitement estimé 
 #  Algorithme de Gradient Descent:
 
 Le schéma conjoint de précodage MU et de pré-compensation des non-linéarités redevables aux amplificateurs de puissance (PA) est formulé comme un simple problème d'optimisation convexe résolu par une approche de descente de gradient (GD).
