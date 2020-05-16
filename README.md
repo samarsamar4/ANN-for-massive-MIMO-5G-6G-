@@ -23,4 +23,4 @@ Les résultats de la simulation ont montré que l'algorithme converge vers des e
 
 ![](MSE.JPG)
 
-# Réseaux de neurones profonds:
+# Réseau de neurones profonds:
