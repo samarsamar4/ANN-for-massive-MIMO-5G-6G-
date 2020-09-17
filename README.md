@@ -24,3 +24,8 @@ Les résultats de la simulation ont montré que l'algorithme converge vers des e
 ![](MSE.JPG)
 
 # Réseau de neurones profonds:
+On s’intéresse dans notre projet un réseau de neurones MLP (feed-forward Network) qui
+contient comme entré les symboles modulés S et comme sortie les symboles x-gd déjà obtenus
+par l’algorithme de descente de gradient proposé dans l’article [9] qui subissent une amplification,
+pré-codage puis passage par le canal MIMO. Il s’agit bien donc d’un apprentissage supervisé le
+réseau de neurones 
