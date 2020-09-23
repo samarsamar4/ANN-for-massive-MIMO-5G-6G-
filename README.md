@@ -23,9 +23,18 @@ Les résultats de la simulation ont montré que l'algorithme converge vers des e
 
 ![](MSE.JPG)
 
-# Réseau de neurones profonds:
+![](compari.JPG)
+Par la suite, d’après les comparaisons effectuées entre l’algorithme de descente de gradient introduite et les autres solutions existantes basées sur DPD, nous avons adopté l’algorithme de descente de gradient pour le précodage MU-MIMO Massifs et la compensation des non-linéarités causées par les PA puisqu’elle présente des bonnes performances non seulement en termes de qualité de transmission mais aussi en termes de complexité algorithmique. Dans ce cadre s’inscrit notre projet qui vise d’améliorer cet algorithme en l’approchant a un réseau de neurones profonds rapides et efficaces permettant la compensation des imperfections hardwares tout en réduisant sa complexité de calcul.
 On s’intéresse dans notre projet un réseau de neurones MLP (feed-forward Network) qui
-contient comme entré les symboles modulés S et comme sortie les symboles x-gd déjà obtenus
-par l’algorithme de descente de gradient proposé dans l’article [9] qui subissent une amplification,
-pré-codage puis passage par le canal MIMO. Il s’agit bien donc d’un apprentissage supervisé le
-réseau de neurones 
+contient comme entré les symboles modulés S et comme sortie les symboles précodés déjà obtenus
+par l’algorithme de descente de gradient proposé ci-dessus qui subissent une amplification,
+précodage puis passage par le canal MIMO. Il s’agit bien donc d’un apprentissage supervisé le
+réseau de neurones.
+![](archi.JPG)
+Pour se faire nous avons utilisés des nouveaux approches de Machine Learning tels que le Knowledge driven et le Meta Learning.
+Voici l'architecture de notre solution proposée.
+
+Nous avons pu trover des performances potentielles non seulement en terme de qualité de transmission  mais aussi en termes de complexité algorithmique. En effet, nous avons pu grace a cette solution de reduire la complexité de calcul d'un facteur de 10 par rapport ce qui est deja prprosé
+
+![](comp.JPG)
+![](nmse.JPG)
